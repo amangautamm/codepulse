@@ -14,7 +14,7 @@
 
 **Real-time codebase intelligence. Zero AI. Zero internet. 100% local.**
 
-[Install from Marketplace](https://marketplace.visualstudio.com/items?itemName=YOUR_PUBLISHER_ID.codepulse) · [Report Bug](https://github.com/YOUR_USERNAME/codepulse/issues) · [Request Feature](https://github.com/YOUR_USERNAME/codepulse/issues) · [Sponsor ❤️](#sponsors--support)
+[Install from Marketplace](https://marketplace.visualstudio.com/items?itemName=YOUR_PUBLISHER_ID.codepulse) · [Report Bug](https://github.com/amangautamm/codepulse/issues) · [Request Feature](https://github.com/amangautamm/codepulse/issues) · [Sponsor ❤️](#sponsors--support)
 
 </div>
 
@@ -159,7 +159,7 @@ code --install-extension codepulse-1.0.0.vsix
 
 ### From Source
 ```bash
-git clone https://github.com/YOUR_USERNAME/codepulse.git
+git clone https://github.com/amangautamm/codepulse.git
 cd codepulse
 npm install
 npm run compile
@@ -281,7 +281,7 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details.
 
 ### Development Setup
 ```bash
-git clone https://github.com/YOUR_USERNAME/codepulse.git
+git clone https://github.com/amangautamm/codepulse.git
 cd codepulse
 npm install
 npm run watch       # TypeScript watch mode
@@ -296,13 +296,13 @@ CodePulse is free and open source. If it saves you time, please consider support
 
 ### Sponsor this project
 
-[![GitHub Sponsors](https://img.shields.io/badge/Sponsor-%E2%9D%A4-pink?style=flat-square&logo=github)](https://github.com/sponsors/YOUR_USERNAME)
-[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-☕-yellow?style=flat-square)](https://buymeacoffee.com/YOUR_USERNAME)
-[![Ko-fi](https://img.shields.io/badge/Ko--fi-Support-blue?style=flat-square&logo=ko-fi)](https://ko-fi.com/YOUR_USERNAME)
+[![GitHub Sponsors](https://img.shields.io/badge/Sponsor-%E2%9D%A4-pink?style=flat-square&logo=github)](https://github.com/sponsors/amangautamm)
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-☕-yellow?style=flat-square)](https://buymeacoffee.com/amangautamm)
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-Support-blue?style=flat-square&logo=ko-fi)](https://ko-fi.com/amangautamm)
 
 ### Other ways to help
 - ⭐ **Star this repo** — helps others find it
-- 🐛 **Report bugs** — [open an issue](https://github.com/YOUR_USERNAME/codepulse/issues)
+- 🐛 **Report bugs** — [open an issue](https://github.com/amangautamm/codepulse/issues)
 - 💬 **Share** — tweet about it, post on Dev.to
 - 📝 **Review** — leave a [Marketplace review](https://marketplace.visualstudio.com/items?itemName=YOUR_PUBLISHER_ID.codepulse&ssr=false#review-details)
 
@@ -320,7 +320,7 @@ Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
 
 <div align="center">
 
-Made with ❤️ by [YOUR_NAME](https://github.com/YOUR_USERNAME)
+Made with ❤️ by [YOUR_NAME](https://github.com/amangautamm)
 
 ⭐ If CodePulse helped you — please star the repo!
 
