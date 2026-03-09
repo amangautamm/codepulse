@@ -297,8 +297,7 @@ CodePulse is free and open source. If it saves you time, please consider support
 ### Sponsor this project
 
 [![GitHub Sponsors](https://img.shields.io/badge/Sponsor-%E2%9D%A4-pink?style=flat-square&logo=github)](https://github.com/sponsors/amangautamm)
-[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-☕-yellow?style=flat-square)](https://buymeacoffee.com/amangautamm)
-[![Ko-fi](https://img.shields.io/badge/Ko--fi-Support-blue?style=flat-square&logo=ko-fi)](https://ko-fi.com/amangautamm)
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-☕-yellow?style=flat-square)](https://buymeacoffee.com/amanblaze)
 
 ### Other ways to help
 - ⭐ **Star this repo** — helps others find it
