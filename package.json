@@ -1,0 +1,232 @@
+{
+  "name": "codepulse",
+  "displayName": "CodePulse \u2014 Codebase Health & Activity Monitor",
+  "description": "Real-time codebase health: complexity scoring, dead code, duplicates, circular deps, and developer activity tracking. 100% local, zero AI, zero internet.",
+  "version": "1.0.0",
+  "publisher": "YOUR_PUBLISHER_ID",
+  "author": "CodePulse Contributors",
+  "license": "MIT",
+  "homepage": "https://github.com/YOUR_USERNAME/codepulse",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_USERNAME/codepulse.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YOUR_USERNAME/codepulse/issues"
+  },
+  "engines": {
+    "vscode": "^1.74.0",
+    "node": ">=16.0.0"
+  },
+  "categories": [
+    "Linters",
+    "Visualization",
+    "Other"
+  ],
+  "keywords": [
+    "code quality",
+    "technical debt",
+    "cyclomatic complexity",
+    "dead code",
+    "duplicate code",
+    "circular dependency",
+    "activity tracker",
+    "productivity",
+    "code health"
+  ],
+  "icon": "media/icon.png",
+  "galleryBanner": {
+    "color": "#0a0b0f",
+    "theme": "dark"
+  },
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "codepulse.showDashboard",
+        "title": "CodePulse: Show Dashboard",
+        "icon": "$(pulse)"
+      },
+      {
+        "command": "codepulse.analyzeWorkspace",
+        "title": "CodePulse: Analyze Entire Workspace",
+        "icon": "$(search)"
+      },
+      {
+        "command": "codepulse.analyzeFile",
+        "title": "CodePulse: Analyze Current File"
+      },
+      {
+        "command": "codepulse.showActivityReport",
+        "title": "CodePulse: Show Activity Report"
+      },
+      {
+        "command": "codepulse.exportActivity",
+        "title": "CodePulse: Export Activity Log"
+      },
+      {
+        "command": "codepulse.clearActivity",
+        "title": "CodePulse: Clear Activity Data"
+      },
+      {
+        "command": "codepulse.refreshHealth",
+        "title": "Refresh",
+        "icon": "$(refresh)"
+      },
+      {
+        "command": "codepulse.refreshActivity",
+        "title": "Refresh",
+        "icon": "$(refresh)"
+      }
+    ],
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "codepulse-sidebar",
+          "title": "CodePulse",
+          "icon": "media/sidebar-icon.svg"
+        }
+      ]
+    },
+    "views": {
+      "codepulse-sidebar": [
+        {
+          "id": "codepulse.healthView",
+          "name": "Health Overview",
+          "type": "tree"
+        },
+        {
+          "id": "codepulse.activityView",
+          "name": "Activity Today",
+          "type": "tree"
+        }
+      ]
+    },
+    "menus": {
+      "editor/title": [
+        {
+          "command": "codepulse.showDashboard",
+          "group": "navigation"
+        }
+      ],
+      "view/title": [
+        {
+          "command": "codepulse.refreshHealth",
+          "when": "view == codepulse.healthView",
+          "group": "navigation"
+        },
+        {
+          "command": "codepulse.refreshActivity",
+          "when": "view == codepulse.activityView",
+          "group": "navigation"
+        }
+      ],
+      "commandPalette": [
+        {
+          "command": "codepulse.refreshHealth",
+          "when": "false"
+        },
+        {
+          "command": "codepulse.refreshActivity",
+          "when": "false"
+        }
+      ]
+    },
+    "configuration": {
+      "title": "CodePulse",
+      "properties": {
+        "codepulse.complexityWarningThreshold": {
+          "type": "number",
+          "default": 6,
+          "minimum": 1,
+          "description": "Cyclomatic complexity score for warning (yellow)."
+        },
+        "codepulse.complexityCriticalThreshold": {
+          "type": "number",
+          "default": 10,
+          "minimum": 1,
+          "description": "Cyclomatic complexity score for critical (red)."
+        },
+        "codepulse.enableDeadCodeDetection": {
+          "type": "boolean",
+          "default": true,
+          "description": "Highlight unused imports, variables, and functions."
+        },
+        "codepulse.enableDuplicateDetection": {
+          "type": "boolean",
+          "default": true,
+          "description": "Detect and highlight duplicate code blocks."
+        },
+        "codepulse.duplicateMinLines": {
+          "type": "number",
+          "default": 5,
+          "minimum": 3,
+          "description": "Minimum lines to qualify as a duplicate block."
+        },
+        "codepulse.enableActivityTracking": {
+          "type": "boolean",
+          "default": true,
+          "description": "Track file activity, coding time, and generate reports."
+        },
+        "codepulse.activityIdleTimeoutMinutes": {
+          "type": "number",
+          "default": 5,
+          "minimum": 1,
+          "description": "Minutes of inactivity before session is paused."
+        },
+        "codepulse.excludePatterns": {
+          "type": "array",
+          "default": [
+            "**/node_modules/**",
+            "**/dist/**",
+            "**/out/**",
+            "**/build/**",
+            "**/.git/**",
+            "**/*.min.js",
+            "**/*.d.ts"
+          ],
+          "description": "Glob patterns to exclude from all analysis."
+        },
+        "codepulse.autoAnalyzeOnSave": {
+          "type": "boolean",
+          "default": true,
+          "description": "Automatically re-analyze a file when saved."
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "lint": "eslint src --ext ts"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "@types/vscode": "^1.74.0",
+    "@typescript-eslint/eslint-plugin": "^5.45.0",
+    "@typescript-eslint/parser": "^5.45.0",
+    "eslint": "^8.28.0",
+    "typescript": "^4.9.4"
+  },
+  "funding": [
+    {
+      "type": "github",
+      "url": "https://github.com/sponsors/YOUR_USERNAME"
+    },
+    {
+      "type": "buymeacoffee",
+      "url": "https://buymeacoffee.com/YOUR_USERNAME"
+    },
+    {
+      "type": "ko_fi",
+      "url": "https://ko-fi.com/YOUR_USERNAME"
+    }
+  ],
+  "sponsor": {
+    "url": "https://github.com/sponsors/YOUR_USERNAME"
+  }
+}
