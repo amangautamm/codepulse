@@ -1,18 +1,18 @@
 {
   "name": "codepulse",
-  "displayName": "CodePulse \u2014 Codebase Health & Activity Monitor",
+  "displayName": "CodePulse \u2026 Codebase Health & Activity Monitor",
   "description": "Real-time codebase health: complexity scoring, dead code, duplicates, circular deps, and developer activity tracking. 100% local, zero AI, zero internet.",
   "version": "1.0.0",
-  "publisher": "YOUR_PUBLISHER_ID",
-  "author": "CodePulse Contributors",
+  "publisher": "amanblaze",
+  "author": "Amanblaze",
   "license": "MIT",
-  "homepage": "https://github.com/YOUR_USERNAME/codepulse",
+  "homepage": "https://github.com/amangautamm/codepulse",
   "repository": {
     "type": "git",
-    "url": "https://github.com/YOUR_USERNAME/codepulse.git"
+    "url": "https://github.com/amangautamm/codepulse.git"
   },
   "bugs": {
-    "url": "https://github.com/YOUR_USERNAME/codepulse/issues"
+    "url": "https://github.com/amangautamm/codepulse/issues"
   },
   "engines": {
     "vscode": "^1.74.0",
@@ -215,18 +215,14 @@
   "funding": [
     {
       "type": "github",
-      "url": "https://github.com/sponsors/YOUR_USERNAME"
+      "url": "https://github.com/sponsors/amangautamm"
     },
     {
       "type": "buymeacoffee",
-      "url": "https://buymeacoffee.com/YOUR_USERNAME"
-    },
-    {
-      "type": "ko_fi",
-      "url": "https://ko-fi.com/YOUR_USERNAME"
+      "url": "https://buymeacoffee.com/amanblaze"
     }
   ],
   "sponsor": {
-    "url": "https://github.com/sponsors/YOUR_USERNAME"
+    "url": "https://github.com/sponsors/amangautamm"
   }
 }
