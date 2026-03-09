@@ -319,7 +319,7 @@ Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
 
 <div align="center">
 
-Made with ❤️ by [YOUR_NAME](https://github.com/amangautamm)
+Made with ❤️ by [Aman Gautam](https://github.com/amangautamm)
 
 ⭐ If CodePulse helped you — please star the repo!
 
