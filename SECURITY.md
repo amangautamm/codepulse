@@ -10,7 +10,7 @@
 
 **Please do NOT report security vulnerabilities through public GitHub issues.**
 
-Instead, email: `security@YOUR_DOMAIN.com`
+Instead, email: `support@amanblaze.in`
 
 Include:
 - Type of vulnerability
