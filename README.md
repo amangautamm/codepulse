@@ -6,15 +6,15 @@
 
 ### Codebase Health & Activity Monitor for VS Code
 
-[![Version](https://img.shields.io/visual-studio-marketplace/v/YOUR_PUBLISHER_ID.codepulse?style=flat-square&color=00ff9d&label=VS%20Marketplace)](https://marketplace.visualstudio.com/items?itemName=YOUR_PUBLISHER_ID.codepulse)
-[![Installs](https://img.shields.io/visual-studio-marketplace/i/YOUR_PUBLISHER_ID.codepulse?style=flat-square&color=3d8eff)](https://marketplace.visualstudio.com/items?itemName=YOUR_PUBLISHER_ID.codepulse)
-[![Rating](https://img.shields.io/visual-studio-marketplace/r/YOUR_PUBLISHER_ID.codepulse?style=flat-square&color=ff9a3c)](https://marketplace.visualstudio.com/items?itemName=YOUR_PUBLISHER_ID.codepulse)
+[![Version](https://img.shields.io/visual-studio-marketplace/v/amanblaze.codepulse?style=flat-square&color=00ff9d&label=VS%20Marketplace)](https://marketplace.visualstudio.com/items?itemName=amanblaze.codepulse)
+[![Installs](https://img.shields.io/visual-studio-marketplace/i/amanblaze.codepulse?style=flat-square&color=3d8eff)](https://marketplace.visualstudio.com/items?itemName=amanblaze.codepulse)
+[![Rating](https://img.shields.io/visual-studio-marketplace/r/amanblaze.codepulse?style=flat-square&color=ff9a3c)](https://marketplace.visualstudio.com/items?itemName=amanblaze.codepulse)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md)
 
 **Real-time codebase intelligence. Zero AI. Zero internet. 100% local.**
 
-[Install from Marketplace](https://marketplace.visualstudio.com/items?itemName=YOUR_PUBLISHER_ID.codepulse) · [Report Bug](https://github.com/amangautamm/codepulse/issues) · [Request Feature](https://github.com/amangautamm/codepulse/issues) · [Sponsor ❤️](#sponsors--support)
+[Install from Marketplace](https://marketplace.visualstudio.com/items?itemName=amanblaze.codepulse) · [Report Bug](https://github.com/amangautamm/codepulse/issues) · [Request Feature](https://github.com/amangautamm/codepulse/issues) · [Sponsor ❤️](#sponsors--support)
 
 </div>
 
@@ -303,7 +303,7 @@ CodePulse is free and open source. If it saves you time, please consider support
 - ⭐ **Star this repo** — helps others find it
 - 🐛 **Report bugs** — [open an issue](https://github.com/amangautamm/codepulse/issues)
 - 💬 **Share** — tweet about it, post on Dev.to
-- 📝 **Review** — leave a [Marketplace review](https://marketplace.visualstudio.com/items?itemName=YOUR_PUBLISHER_ID.codepulse&ssr=false#review-details)
+- 📝 **Review** — leave a [Marketplace review](https://marketplace.visualstudio.com/items?itemName=amanblaze.codepulse&ssr=false#review-details)
 
 ### Current Sponsors
 
